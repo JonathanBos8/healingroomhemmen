@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -49,6 +49,31 @@
     </div>
   </div>
 </nav>
+      <div class="row">
+        <div class="col mx-3 my-2 bg-grey">
+          <h3 class="text-center">Over Ons</h3>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 ms-3 me-2 my-2 h-auto card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-M_6hLIRCA4HnsiU3i3a264c1hhIQsYo-_g&usqp=CAU" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h1 class="card-title text-center">Card title</h1>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="/login.html" class="btn btn-primary">Login</a>
+  </div>
+</div>
+           <div class="col ms-2 me-3 my-2 bg-grey">
+             <h3 class="text center">Data</h3>
+               <p class="text center">Dit is de beschrijving van een afspraak waarvoor je kan inschrijven.</p>
+      <!-- Calendly link widget begin -->
+<a href="" class="btn btn-primary" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/bossie-jo/lmf-gmd'});return false;">Inschrijven</a>
+<!-- Calendly link widget end -->
+        </div>
+      </div>
+    </div>
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
